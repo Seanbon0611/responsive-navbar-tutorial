@@ -1,7 +1,7 @@
 {
   "name": "responsive-navbar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Code for a responsive navigation bar to go with my code-along blog",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
