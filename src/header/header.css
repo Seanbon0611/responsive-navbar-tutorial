@@ -59,7 +59,7 @@
   align-items: center;
 }
 /*Desktop View*/
-@media (max-width: 646px) {
+@media (max-width: 648px) {
   /*Mobile View */
   .header {
     padding: 0px 10px;
