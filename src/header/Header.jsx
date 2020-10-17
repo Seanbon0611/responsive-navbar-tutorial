@@ -16,7 +16,6 @@ const Header = () => {
             <Logo className="logo" />
           </a>
         </div>
-
         <ul className={click ? "nav-options active" : "nav-options"}>
           <li className="option" onClick={closeMobileMenu}>
             <a href="#">ABOUT</a>
@@ -30,7 +29,7 @@ const Header = () => {
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="#">SIGN-IN</a>
           </li>
-          <li className=" option mobile-option" onClick={closeMobileMenu}>
+          <li className="option mobile-option" onClick={closeMobileMenu}>
             <a href="" className="sign-up">
               SIGN-UP
             </a>

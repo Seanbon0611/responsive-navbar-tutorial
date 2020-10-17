@@ -1,3 +1,4 @@
+/*Desktop View*/
 .header {
   display: flex;
   background: linear-gradient(#6616fc, #f394d3);
@@ -30,9 +31,6 @@
 .mobile-option {
   display: none;
 }
-.mobile-menu {
-  display: none;
-}
 
 .option :hover {
   color: white;
@@ -58,11 +56,17 @@
   cursor: pointer;
   align-items: center;
 }
-/*Desktop View*/
+.mobile-menu {
+  display: none;
+}
 @media (max-width: 648px) {
   /*Mobile View */
   .header {
     padding: 0px 10px;
+  }
+  .logo {
+    width: 3rem;
+    height: 3.5rem;
   }
   .nav-options {
     display: flex;
@@ -87,11 +91,6 @@
     padding-left: 0px;
   }
 
-  .logo {
-    width: 3rem;
-    height: 3.5rem;
-  }
-
   .menu-icon {
     width: 45px;
     height: 45px;
@@ -112,13 +111,11 @@
     align-self: center;
     border-radius: 3px;
   }
-  .sign-up :hover {
-    opacity: 0.5;
-  }
-  .mobile-menu {
-    display: block;
-  }
+
   .signin-up {
     display: none;
   }
+}
+.mobile-menu {
+  display: block;
 }
